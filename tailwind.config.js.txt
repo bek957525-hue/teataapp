@@ -1,0 +1,31 @@
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        bg: "var(--tg-theme-bg-color, #FAF3E7)",
+        text: "var(--tg-theme-text-color, #3D2C2E)",
+        secondaryBg: "var(--tg-theme-secondary-bg-color, #FFFFFF)",
+        accentPink: "#D4A5A5",
+        accentGold: "#C9A961",
+        darkBrown: "#3D2C2E",
+      },
+      fontFamily: {
+        serif: ['"Playfair Display"', 'serif'],
+        sans: ['"Inter"', 'sans-serif'],
+      },
+      borderRadius: {
+        'xl': '16px',
+        '2xl': '20px',
+      },
+      boxShadow: {
+        'soft': '0 10px 40px -10px rgba(61, 44, 46, 0.08)',
+        'gold': '0 8px 24px -6px rgba(201, 169, 97, 0.4)',
+      }
+    },
+  },
+  plugins: [],
+}
