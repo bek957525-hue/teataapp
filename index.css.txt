@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--tg-theme-bg-color, #FAF3E7);
+  color: var(--tg-theme-text-color, #3D2C2E);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  padding-bottom: 80px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4A5A5;
+  border-radius: 10px;
+}
